@@ -1,0 +1,24 @@
+<div class="notifytiny debuggingmessage" data-rel="debugging">This page did not call $PAGE->set_url(...). Using https://node108289-env-2576158.cloudjiffy.net/moodle/admin/tool/pluginskel/index.php<ul style="text-align: left" data-rel="backtrace"><li>line 679 of /lib/pagelib.php: call to debugging()</li><li>line 967 of /lib/pagelib.php: call to moodle_page->magic_get_url()</li><li>line 14 of /filter/kekuleloader/filter.php: call to moodle_page->__get()</li><li>line 305 of /lib/filterlib.php: call to filter_kekuleloader->setup()</li><li>line 1871 of /lib/pagelib.php: call to filter_manager->setup_page_for_globally_available_filters()</li><li>line 1978 of /lib/setuplib.php: call to moodle_page->initialise_theme_and_output()</li><li>line 36 of /mod/quiz/accessrule/seb/settings.php: call to bootstrap_renderer->__call()</li><li>line 310 of /mod/quiz/settings.php: call to include()</li><li>line 158 of /lib/classes/plugininfo/mod.php: call to include()</li><li>line 47 of /admin/settings/plugins.php: call to core\plugininfo\mod->load_settings()</li><li>line 8783 of /lib/adminlib.php: call to require()</li><li>line 8664 of /lib/adminlib.php: call to admin_get_root()</li><li>line 43 of /admin/tool/pluginskel/index.php: call to admin_externalpage_setup()</li></ul></div><br />
+<b>Deprecated</b>:  ctype_digit(): Argument of type int will be interpreted as string in the future in <b>/var/www/html/moodle/admin/tool/pluginskel/vendor/symfony/yaml/Inline.php</b> on line <b>162</b><br />
+copyright: '2024 Aniket aniketk9211@gmail.com'
+component: tiny_moldraw
+release: 0.1.0
+version: 2024020900
+requires: '2022112800'
+maturity: MATURITY_ALPHA
+name: 'Molecule Drawing'
+tiny_features:
+  buttons: true
+  menuitems: true
+  options:
+    -
+      name: myFirstProperty
+      type: string
+features:
+  install: true
+  uninstall: true
+  settings: true
+  readme: true
+  license: true
+  upgrade: true
+  upgradelib: true
